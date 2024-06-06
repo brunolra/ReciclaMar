@@ -1,0 +1,47 @@
+/* Paleta de Cores */
+:root {
+    --brand-color: #8FE5F6;
+    --darkest-color: #12345D;
+    --dark-color: #164E63;
+    --mid-color: #AAB4C6;
+    --light-color: #D1D8E4;
+    --lightest-color: #FFFFFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+h1 {
+    color: var(--brand-color) ;
+}
+
+h2 {
+    color: var(--brand-color) ;
+}
+
+h3 {
+    color: var(--brand-color) ;
+}
+
+h4 {
+    /* font-size: 2rem; */
+    /* line-height: 20px; */
+    color: var(--darkest-color);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.footer {
+    /* border: 1px solid #000000; */
+    padding: 1rem;
+}

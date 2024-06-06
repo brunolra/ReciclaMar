@@ -1,0 +1,148 @@
+.header{
+    padding:1rem;
+    background-color: var(--dark-color);
+}
+
+.nav {
+    /* background-color: var(--dark-color); */
+
+    & ul {
+        column-gap: 5rem;
+        
+    }
+
+    & button {
+        color: var(--lightest-color);
+    }
+
+    & a{
+        color: var(--brand-color);
+        /* font-size: 1rem; */
+    }
+}
+
+.logo {
+    font-size: 3rem;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--dark-color);
+    padding: 1rem;
+    border-top: 1px solid #ffffff;
+
+    & h2 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    & h3 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+}
+
+.busca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    /* line-height: 3rem; */
+    /* border: 1px solid black; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-form-button button {
+    margin-top: 20px;
+    background-color: var(--brand-color);
+    color: var(--darkest-color);
+    border-radius: 5px;
+    font-size: 2rem;
+    border: 0;
+}
+
+.box-form-button button:hover {
+    scale: 110%;
+}
+
+
+.imagem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--dark-color);
+    padding: 1rem;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.img_mapa {
+    border-radius: 20px;
+}
+
+.div_princ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+
+.text {
+    color: var(--lightest-color);
+    padding: 1rem;
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+
+p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.link {
+    a {
+        color: var(--lightest-color);
+    }
+
+    & a:hover {
+        color: var(--brand-color);
+    }
+}
+
+
+.footer {
+    color: var(--light-color);
+    background-color: var(--darkest-color);
+    text-align: center;
+    padding: 1rem;
+    position: fixed; /* Fixa o footer na parte inferior da janela de visualização */
+    bottom: 0; /* Posiciona o footer no fundo da página */
+    width: 100%; /* Garante que o footer ocupe toda a largura da página */
+}
+
+
+
+
+/* Itens para Acessibilidade */
+:focus {
+    outline: 5px solid var(--brand-color);
+}
+
+::selection {
+    background-color: #bf018c;
+    color: #fff;
+}
